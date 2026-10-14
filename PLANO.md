@@ -1,19 +1,19 @@
 # 📋 Plano do projeto: SK-Editor-v3-Corrigido-v2
 
-_Gerado em 14/10/2026, 06:35:50 — sem IA, lendo os arquivos._
+_Gerado em 14/10/2026, 06:47:00 — sem IA, lendo os arquivos._
 
 ## 📊 Visão geral
 | Item | Valor |
 |---|---|
-| Arquivos | 158 |
-| Linhas | 40.700 |
+| Arquivos | 160 |
+| Linhas | 40.795 |
 | Telas/páginas | 4 |
 | Rotas do backend | 40 |
 | Chamadas do app | 28 |
 | Tabelas do banco | 4 |
 | Variáveis de ambiente | 33 |
 
-**Linguagens:** TypeScript (React) (88), TypeScript (29), JavaScript (10), JSON (10), Outros (5), HTML (4), Markdown (4), Imagem (4), YAML (2), Imagem SVG (1), CSS (1)
+**Linguagens:** TypeScript (React) (88), TypeScript (29), JSON (11), JavaScript (10), Outros (5), HTML (4), Markdown (4), Imagem (4), YAML (3), Imagem SVG (1), CSS (1)
 
 ## 🧩 Apps dentro deste projeto
 - api-server (1) (@workspace/api-server)
@@ -344,6 +344,7 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 ├─ 📁 .github/
 │  └─ 📁 workflows/
 │     ├─ apk-capacitor.yml
+│     ├─ apk.yml
 │     └─ desktop-exe.yml
 ├─ 📁 api-server (1)/
 │  ├─ 📁 .replit-artifact/
@@ -503,6 +504,7 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 │  └─ workflow.js
 ├─ .gitignore
 ├─ .npmrc
+├─ apk.config.json
 ├─ build.js
 ├─ build.mjs
 ├─ capacitor.config.json
